@@ -81,3 +81,40 @@ No hardware required — just your camera.
 git clone https://github.com/your-username/virtual_mouse.git
 cd virtual_mouse
 pip install -r requirements.txt
+
+▶️ Run the Project
+python main.py
+
+Press ESC to exit
+
+📦 Model Download
+
+The required model will automatically download on first run:
+
+hand_landmarker.task (~9MB)
+🧩 How It Works
+📷 Captures webcam input
+✋ Detects hand landmarks using MediaPipe
+🧠 Processes gestures using a state machine
+🎯 Maps gestures to system controls
+⚡ Smoothens motion using Kalman filtering
+⚠️ Requirements
+Python 3.8+
+Webcam
+Good lighting for accurate detection
+💡 Future Improvements
+Multi-hand support
+Custom gesture mapping
+GUI for configuration
+Cross-platform brightness control
+Performance optimization
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+<p align="center"> Made with ❤️ using Computer Vision </p> ```
